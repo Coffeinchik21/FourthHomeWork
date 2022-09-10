@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    color: #3CB878;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html {
+    background-image: url(../img/background.png);
+    background-position: fixed;
+    background-size: cover;
+    min-height: 912px;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0 4% 0 4%;
+}
+
+.vl {
+    border-left: 0.1em solid silver;
+    height: 24px;
+    justify-self: center;
+    opacity: 0.3;
+}
+
+.additional-Information__vl {
+    border-left: 0.1em solid silver;
+    height: 24px;
+    justify-self: center;
+    opacity: 0.3;
+}
+
+.logo {
+    font-size: 20px;
+    font-style: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Verdana Bold';
+    line-height: 59px;
+    justify-self: start;
+}
+
+.logo:hover {
+    color: #3CB878;
+}
+
+.additional-Information {
+    text-align: right;
+    align-self: center;
+    justify-self: right;
+    display: grid;
+    grid-template-columns: 149px 1fr;
+    column-gap: 24px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.additional-Information__enter {
+    text-align: center;
+}
+
+.additional-Information__icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 28px;
+    align-items: center;
+    justify-self: center;
+}
+
+.additional-Information__icons--icon1 a {
+    display: block;
+    background-image: url(../img/sprite-icons.png);
+    height: 19px;
+    width: 19px;
+    background-position-y: -46px;
+}
+
+.additional-Information__icons--icon1 a:hover {
+    background-position-y: -19px;
+}
+
+.additional-Information__icons--icon2 a {
+    display: block;
+    background-image: url(../img/sprite-icons.png);
+    height: 20px;
+    width: 28px;
+    background-position-y: -45px;
+    background-position-x: -47px;
+}
+
+.additional-Information__icons--icon2 a:hover {
+    background-position-y: -18px;
+}
+
+.additional-Information__icons--icon3 a {
+    display: block;
+    background-image: url(../img/sprite-icons.png);
+    height: 20px;
+    width: 20px;
+    background-position-y: -45px;
+    background-position-x: 20px;
+}
+
+.additional-Information__icons--icon3 a:hover {
+    background-position-y: -18px;
+}
+
+main {
+    display: grid;
+    min-height: 853px;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-Form {
+    width: 444px;
+    height: 584px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+
+.registration-Form__Header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 29px 60px 14px 60px;
+}
+
+.registration-Form__line {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2px 1fr;
+    grid-column-gap: 20px;
+    padding: 0 60px 9px 60px;
+}
+
+.registration-Form__Header__Link-to-log-in {
+    text-align: right;
+    font-size: 14px;
+}
+
+.registration-Form__button--social-network {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: space-around;
+    padding: 0 60px 9px 60px;
+    grid-column-gap: 2px;
+}
+
+.registration-Form__button--social-network a {
+    display: grid;
+    width: 160px;
+    height: 48px;
+    border-radius: 3px;
+    color: #fff;
+    grid-template-columns: 50px 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.registration-Form__button--social-network a:hover {
+    text-decoration: none;
+}
+
+.registration-Form__button--social-network__facebook {
+    background-color: #305DB8;
+    position: relative;
+}
+
+.registration-Form__button--social-network__facebook:hover {
+    background-color: #264B96;
+}
+
+.registration-Form__button--social-network__facebook::before {
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 21px;
+    content: '\f39e';
+    color: #fff;
+    font-size: 20px;
+}
+
+.registration-Form__button--social-network__google::before {
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 15px;
+    content: '\f0d5';
+    color: #fff;
+    font-size: 20px;
+}
+
+.registration-Form__button--social-network__google {
+    background-color: #DF4A32;
+    position: relative;
+}
+
+.registration-Form__button--social-network__google:hover {
+    background-color: #C3412C;
+}
+
+.vl {
+    justify-self: end;
+}
+
+.registration-Form__line div {
+    color: #848484;
+    align-self: center;
+}
+
+.registration-Form__line--text {
+    justify-self: center;
+}
+
+.registration-Form__input-fields {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 22px;
+    grid-row-gap: 9px;
+}
+
+.registration-Form__input-fields__input {
+    height: 46px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.registration-Form__input-fields__input:focus {
+    box-shadow: -2px 5px 8px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+.registration-Form__agree-and-send {
+    padding-left: 60px;
+    padding-right: 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-size: 14px;
+}
+
+.registration-Form__submit--button {
+    height: 46px;
+    background-color: #3CB878;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.registration-Form__green-square {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background-color: #3CB878;
+    left: 0;
+    top: 33px;
+}
+
+.registration-Form__checkbox {
+    display: none;
+}
+
+.registration-Form__checkbox--fake {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    position: relative;
+    top: 5px;
+}
+
+.registration-Form__checkbox--fake::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 14px;
+    height: 11px;
+    background-image: url(../img/checkbox.png);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.registration-Form__checkbox:checked+.registration-Form__checkbox--fake::before {
+    opacity: 1;
+}
+
+.label,
+.registration-Form__agree-and-send__agree-box {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .logo {
+        justify-self: center;
+    }
+
+    .registration-Form__Header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .additional-Information {
+        justify-self: center;
+    }
+
+    .registration-Form {
+        width: inherit;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .registration-Form__line {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .registration-Form__button--social-network {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .registration-Form__button--social-network a {
+        justify-self: center;
+    }
+
+    .registration-Form__input-fields {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .registration-Form__agree-and-send {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .registration-Form {
+        width: 300px;
+    }
+
+    .registration-Form__button--social-network a {
+        width: 100px;
+        grid-template-columns: 1fr;
+    }
+
+    .registration-Form__button--social-network__google--text,
+    .registration-Form__button--social-network__facebook--text {
+        display: none;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .registration-Form__button--social-network__facebook::before {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .registration-Form__button--social-network__google::before {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
