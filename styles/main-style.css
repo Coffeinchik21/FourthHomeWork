@@ -38,7 +38,7 @@ header {
     opacity: 0.3;
 }
 
-.additional-Information__vl {
+.additional-information__vl {
     border-left: 0.1em solid silver;
     height: 24px;
     justify-self: center;
@@ -59,7 +59,7 @@ header {
     color: #3CB878;
 }
 
-.additional-Information {
+.additional-information {
     text-align: right;
     align-self: center;
     justify-self: right;
@@ -70,11 +70,11 @@ header {
     color: #fff;
 }
 
-.additional-Information__enter {
+.additional-information__enter {
     text-align: center;
 }
 
-.additional-Information__icons {
+.additional-information__icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 28px;
@@ -82,7 +82,7 @@ header {
     justify-self: center;
 }
 
-.additional-Information__icons--icon1 a {
+.additional-information__icons--icon1 a {
     display: block;
     background-image: url(../img/sprite-icons.png);
     height: 19px;
@@ -90,11 +90,11 @@ header {
     background-position-y: -46px;
 }
 
-.additional-Information__icons--icon1 a:hover {
+.additional-information__icons--icon1 a:hover {
     background-position-y: -19px;
 }
 
-.additional-Information__icons--icon2 a {
+.additional-information__icons--icon2 a {
     display: block;
     background-image: url(../img/sprite-icons.png);
     height: 20px;
@@ -103,11 +103,11 @@ header {
     background-position-x: -47px;
 }
 
-.additional-Information__icons--icon2 a:hover {
+.additional-information__icons--icon2 a:hover {
     background-position-y: -18px;
 }
 
-.additional-Information__icons--icon3 a {
+.additional-information__icons--icon3 a {
     display: block;
     background-image: url(../img/sprite-icons.png);
     height: 20px;
@@ -116,7 +116,7 @@ header {
     background-position-x: 20px;
 }
 
-.additional-Information__icons--icon3 a:hover {
+.additional-information__icons--icon3 a:hover {
     background-position-y: -18px;
 }
 
@@ -127,7 +127,7 @@ main {
     align-items: center;
 }
 
-.registration-Form {
+.registration-form {
     width: 444px;
     height: 584px;
     background-color: #fff;
@@ -135,7 +135,7 @@ main {
     position: relative;
 }
 
-.registration-Form__Header {
+.registration-form__Header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
@@ -143,7 +143,7 @@ main {
     padding: 29px 60px 14px 60px;
 }
 
-.registration-Form__line {
+.registration-form__line {
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 2px 1fr;
@@ -151,12 +151,12 @@ main {
     padding: 0 60px 9px 60px;
 }
 
-.registration-Form__Header__Link-to-log-in {
+.registration-form__Header__Link-to-log-in {
     text-align: right;
     font-size: 14px;
 }
 
-.registration-Form__button--social-network {
+.registration-form__button--social-network {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: space-around;
@@ -164,7 +164,7 @@ main {
     grid-column-gap: 2px;
 }
 
-.registration-Form__button--social-network a {
+.registration-form__button--social-network a {
     display: grid;
     width: 160px;
     height: 48px;
@@ -175,20 +175,20 @@ main {
     align-items: center;
 }
 
-.registration-Form__button--social-network a:hover {
+.registration-form__button--social-network a:hover {
     text-decoration: none;
 }
 
-.registration-Form__button--social-network__facebook {
+.registration-form__button--social-network__facebook {
     background-color: #305DB8;
     position: relative;
 }
 
-.registration-Form__button--social-network__facebook:hover {
+.registration-form__button--social-network__facebook:hover {
     background-color: #264B96;
 }
 
-.registration-Form__button--social-network__facebook::before {
+.registration-form__button--social-network__facebook::before {
     font-family: 'FontAwesome';
     position: absolute;
     left: 21px;
@@ -197,7 +197,7 @@ main {
     font-size: 20px;
 }
 
-.registration-Form__button--social-network__google::before {
+.registration-form__button--social-network__google::before {
     font-family: 'FontAwesome';
     position: absolute;
     left: 15px;
@@ -206,12 +206,12 @@ main {
     font-size: 20px;
 }
 
-.registration-Form__button--social-network__google {
+.registration-form__button--social-network__google {
     background-color: #DF4A32;
     position: relative;
 }
 
-.registration-Form__button--social-network__google:hover {
+.registration-form__button--social-network__google:hover {
     background-color: #C3412C;
 }
 
@@ -219,16 +219,16 @@ main {
     justify-self: end;
 }
 
-.registration-Form__line div {
+.registration-form__line div {
     color: #848484;
     align-self: center;
 }
 
-.registration-Form__line--text {
+.registration-form__line--text {
     justify-self: center;
 }
 
-.registration-Form__input-fields {
+.registration-form__input-fields {
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     padding-left: 60px;
@@ -237,19 +237,19 @@ main {
     grid-row-gap: 9px;
 }
 
-.registration-Form__input-fields__input {
+.registration-form__input-fields__input {
     height: 46px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding-left: 20px;
 }
 
-.registration-Form__input-fields__input:focus {
+.registration-form__input-fields__input:focus {
     box-shadow: -2px 5px 8px rgba(0, 0, 0, 0.3);
     outline: none;
 }
 
-.registration-Form__agree-and-send {
+.registration-form__agree-and-send {
     padding-left: 60px;
     padding-right: 60px;
     display: grid;
@@ -257,16 +257,22 @@ main {
     font-size: 14px;
 }
 
-.registration-Form__submit--button {
+.registration-form__submit--button {
     height: 46px;
     background-color: #3CB878;
     border-radius: 4px;
     border: 0;
     color: #fff;
     font-size: 16px;
+
 }
 
-.registration-Form__green-square {
+.registration-form__submit--button:hover {
+    background-color: #329A65;
+    cursor: pointer;
+}
+
+.registration-form__green-square {
     position: absolute;
     height: 18px;
     width: 18px;
@@ -275,11 +281,11 @@ main {
     top: 33px;
 }
 
-.registration-Form__checkbox {
+.registration-form__checkbox {
     display: none;
 }
 
-.registration-Form__checkbox--fake {
+.registration-form__checkbox--fake {
     display: inline-block;
     height: 18px;
     width: 18px;
@@ -289,7 +295,7 @@ main {
     top: 5px;
 }
 
-.registration-Form__checkbox--fake::before {
+.registration-form__checkbox--fake::before {
     position: absolute;
     content: "";
     display: block;
@@ -303,12 +309,12 @@ main {
     transition: 0.2s;
 }
 
-.registration-Form__checkbox:checked+.registration-Form__checkbox--fake::before {
+.registration-form__checkbox:checked+.registration-form__checkbox--fake::before {
     opacity: 1;
 }
 
 .label,
-.registration-Form__agree-and-send__agree-box {
+.registration-form__agree-and-send__agree-box {
     position: relative;
 }
 
@@ -323,41 +329,41 @@ main {
         justify-self: center;
     }
 
-    .registration-Form__Header {
+    .registration-form__Header {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .additional-Information {
+    .additional-information {
         justify-self: center;
     }
 
-    .registration-Form {
+    .registration-form {
         width: inherit;
         margin-left: 20px;
         margin-right: 20px;
     }
 
-    .registration-Form__line {
+    .registration-form__line {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .registration-Form__button--social-network {
+    .registration-form__button--social-network {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .registration-Form__button--social-network a {
+    .registration-form__button--social-network a {
         justify-self: center;
     }
 
-    .registration-Form__input-fields {
+    .registration-form__input-fields {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .registration-Form__agree-and-send {
+    .registration-form__agree-and-send {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -369,17 +375,17 @@ main {
         grid-template-rows: 1fr 1fr;
     }
 
-    .registration-Form {
+    .registration-form {
         width: 300px;
     }
 
-    .registration-Form__button--social-network a {
+    .registration-form__button--social-network a {
         width: 100px;
         grid-template-columns: 1fr;
     }
 
-    .registration-Form__button--social-network__google--text,
-    .registration-Form__button--social-network__facebook--text {
+    .registration-form__button--social-network__google--text,
+    .registration-form__button--social-network__facebook--text {
         display: none;
     }
 
@@ -387,13 +393,13 @@ main {
         display: none;
     }
 
-    .registration-Form__button--social-network__facebook::before {
+    .registration-form__button--social-network__facebook::before {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 
-    .registration-Form__button--social-network__google::before {
+    .registration-form__button--social-network__google::before {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
