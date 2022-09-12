@@ -135,7 +135,7 @@ main {
     position: relative;
 }
 
-.registration-form__Header {
+.registration-form__header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
@@ -151,7 +151,7 @@ main {
     padding: 0 60px 9px 60px;
 }
 
-.registration-form__Header__Link-to-log-in {
+.registration-form__header__Link-to-log-in {
     text-align: right;
     font-size: 14px;
 }
@@ -244,6 +244,10 @@ main {
     padding-left: 20px;
 }
 
+.registration-form__input-fields__input.error {
+    border: 1px solid red;
+}
+
 .registration-form__input-fields__input:focus {
     box-shadow: -2px 5px 8px rgba(0, 0, 0, 0.3);
     outline: none;
@@ -285,6 +289,10 @@ main {
     display: none;
 }
 
+.registration-form__checkbox.error+.registration-form__checkbox--fake {
+    border: 1px solid rgba(150, 0, 0, 1);
+}
+
 .registration-form__checkbox--fake {
     display: inline-block;
     height: 18px;
@@ -293,6 +301,10 @@ main {
     border-radius: 6px;
     position: relative;
     top: 5px;
+}
+
+.registration-form__checkbox--fake:hover {
+    cursor: pointer;
 }
 
 .registration-form__checkbox--fake::before {
@@ -318,6 +330,7 @@ main {
     position: relative;
 }
 
+
 @media screen and (max-width: 768px) {
 
     header {
@@ -329,7 +342,7 @@ main {
         justify-self: center;
     }
 
-    .registration-form__Header {
+    .registration-form__header {
         padding-left: 20px;
         padding-right: 20px;
     }
