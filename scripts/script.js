@@ -24,7 +24,6 @@ formInputs.addEventListener("click", function () {
             btn.style.opacity = 1;
         }
     });
-    formInputs.removeEventListener("click");
 });
 
 formInputs.addEventListener("submit", function () {
